@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.25rem;
+}
+
+.logo {
+    font-size: var(--font-size-medium);
+    font-weight: 700;
+}
+
+.header__menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.25rem;
+}
+
+.header__menu-actv {
+    display: flex;
+}
+
+.header__menu--item {
+    width: 7.5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--white);
+}
+
+.menu__item--link {
+    color: var(--white);
+    text-decoration: none;
+}
+
