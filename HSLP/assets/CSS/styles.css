@@ -1,0 +1,26 @@
+@import url("styles/header.css");
+
+:root {
+    --font: 'Raleway';
+    --font-size-small: 16px;
+    --font-size-medium: 20px;
+    --font-size-large: 36px;
+    --white: #fff;
+    --Blue: #2A4AF4;
+    --Orange: #DF8600;
+    --purple-100: #9694E7;
+    --purple-300: #5F65F4;
+    --purple-500: #1F1D2C;
+    --purple-700: #171420;
+    --purple-900: #181420;
+    --grey-200: #9B9B9B;
+    --grey-500: #5C5C5C;
+}
+
+body {
+    font-family: var(--font);
+    font-weight: 500;
+    background-color: var(--purple-700);
+    color: var(--white);
+}
+
