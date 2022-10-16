@@ -1,4 +1,5 @@
 @import url("styles/header.css");
+@import url("styles/intro.css");
 
 :root {
     --font: 'Raleway';
@@ -24,3 +25,54 @@ body {
     color: var(--white);
 }
 
+/*==========Text_Components==========*/
+
+.section__title {
+    color: var(--Blue);
+    font-size: var(--font-size-medium);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.section__subtitle {
+    color: var(--white);
+    font-size: var(--font-size-large);
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.section__description {
+    color: var(--grey-200);
+    font-size: var(--font-size-small);
+    font-weight: 500;
+    line-height: 169%;
+    text-align: justify;
+}
+
+/*==========Buttons==========*/
+
+.prirmary__button,
+.secundary__button {
+    display: flex;
+    font-weight: 600;
+    color: var(--white);
+    text-decoration: none;
+    font-size: var(--font-size-small);
+    justify-content: center;
+    align-items: center;
+}
+
+.prirmary__button {
+    width: 9.25rem;
+    height: 3.87rem;
+    background-color: var(--purple-300);
+}
+
+.secundary__button {
+    width: 9rem;
+    height: 3.62rem;
+    background-color: transparent;
+    border: 2px solid var(--white);
+}
+
+/*============================*/

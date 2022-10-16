@@ -1,0 +1,99 @@
+.intro__title {
+    margin: 2.87rem 1.5rem 0 1.5rem;
+}
+
+.intro__subtitle {
+    margin: 1rem 1.5rem;
+}
+
+.intro__description {
+    margin: 0 1.5rem;
+}
+
+.intro__banner {
+    margin: 1rem 0;
+    padding-top: 16.6rem;
+    background-image: url("/HSLP/assets/img/Header-section/Header-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro__banner--grid {
+    display: grid;
+    margin: 0 1.5rem;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.intro__banner--item {
+    width: 43.73vw;
+    height: 20.4vw;
+    display: grid;
+    column-gap: 0.5rem;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.intro__banner--grid > li:nth-child(1) {
+    grid-row: 2;
+    background-color: var(--purple-100);
+}
+
+.intro__banner--grid > li:nth-child(2),
+.intro__banner--grid > li:nth-child(3) {
+    grid-column: 2;
+    background-color: var(--purple-300);
+}
+
+.banner__item--img {
+    width: 7.01vw;
+    height: 7.01vw;
+    grid-row: span 2;
+    margin-top: 0.75rem;
+    margin-left: 0.4rem;
+}
+
+.banner__item--title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    align-self: flex-end;
+}
+
+.banner__item--desc {
+    font-size: 0.68rem;
+    line-height: 131%;
+}
+
+.intro__data--container {
+    margin: 1.75rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    text-align: center;
+}
+
+.intro__data {
+    background-image: url("/HSLP/assets/img/Header-section/Header-plus-icon.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top right;
+}
+
+.intro__data--number {
+    font-size: 4rem;
+    padding-right: 0.7rem;
+}
+
+.intro__data--desc {
+    font-size: var(--font-size-small);
+    font-weight: 600;
+    color: var(--grey-200);
+    margin-top: 0.62rem;
+}
+
+.intro__buttons {
+    margin: 2.37rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
