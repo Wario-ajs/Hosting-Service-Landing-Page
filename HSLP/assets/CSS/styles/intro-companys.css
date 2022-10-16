@@ -1,0 +1,19 @@
+.intro-companys {
+    margin: 2.37rem 0;
+    padding: 2.62rem 1rem;
+    text-align: center;
+    background-color: var(--purple-500);
+}
+
+.intro-companys__subtitle {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: 3.31rem;
+}
+
+.intro-companys__list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.37rem;
+}
