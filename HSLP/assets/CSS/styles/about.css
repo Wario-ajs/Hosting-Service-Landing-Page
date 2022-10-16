@@ -1,0 +1,38 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.5rem 3.12rem 1.5rem;
+}
+
+.about__title {
+    margin-top: 1.5rem;
+}
+
+.about__description {
+    margin-top: 1.125rem;
+    margin-bottom: 2.5rem;
+}
+
+.about__banner {
+    width: 83.46vw;
+    height: 105.66vw;
+}
+
+.about__specs--grid {
+    display: grid;
+    margin-top: 2.18rem;
+    grid-template-columns: auto auto;
+    column-gap: 1.4rem;
+    row-gap: 2.62rem;
+}
+
+.about__specs {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--purple-100);
+}
+
+.about__button {
+    margin: 4.62rem 0 3.12rem 0;
+    align-self: center;
+}
