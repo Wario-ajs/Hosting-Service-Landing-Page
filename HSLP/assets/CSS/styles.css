@@ -2,6 +2,7 @@
 @import url("styles/intro.css");
 @import url("styles/intro-companys.css");
 @import url("styles/about.css");
+@import url("styles/services.css");
 
 :root {
     --font: 'Raleway';

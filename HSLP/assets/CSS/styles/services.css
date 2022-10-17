@@ -1,0 +1,40 @@
+.services {
+    margin: 0 2.25rem;
+    text-align: center;
+}
+
+.services__subtitle {
+    margin-top: 1.25rem;
+    margin-bottom: 1.81rem;
+}
+
+.services__list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+}
+
+.services__items {
+    background-color: var(--purple-500);
+    padding: 0 1.375rem;
+}
+
+.services__items--icon {
+    width: 3.25rem;
+    height: 3.25rem;
+    margin-top: 2.37rem;
+}
+
+.services__items--title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin: 1.53rem 0 0.81rem 0;
+}
+
+.services__items--description {
+    font-size: var(--font-size-small);
+    font-weight: 500;
+    line-height: 131%;
+    color: var(--grey-200);
+    margin-bottom: 3.18rem;
+}
