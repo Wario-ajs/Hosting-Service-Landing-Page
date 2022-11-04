@@ -1,0 +1,75 @@
+.pricing {
+  margin-top: 6.06rem;
+}
+
+.pricing__title {
+  text-align: center;
+}
+
+.pricing__subtitle {
+  text-align: center;
+  margin: 0.56rem 0 2.06rem 0;
+}
+
+.pricing__container {
+  margin: 0 1rem;
+  padding: 1.56rem 1rem;
+  border-radius: 1.25rem;
+  margin-bottom: 2.12rem;
+  background-color: var(--white);
+}
+
+.pricing__container--title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--purple-900);
+}
+
+.pricing__container--promo {
+  color: var(--blue);
+  font-size: 1.75rem;
+  margin-top: 1.31rem;
+}
+
+.pricing__container--vantages {
+  margin: 2.93rem 0 3.31rem 0;
+  display: flex;
+  gap: 1.31rem;
+  flex-direction: column;
+}
+
+.pricing__container--vantage {
+  color: var(--grey-500);
+  font-size: 1.2rem;
+  line-height: 120%;
+}
+
+.pricing__container--title-offer {
+  color: var(--purple-900);
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.pricing__container--offer {
+  display: block;
+  color: var(--blue);
+  font-size: 1.75rem;
+  margin: 0.68rem 0 1.68rem 0;
+  text-align: center;
+}
+
+.pricing__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 71.73vw;
+  height: 18.13vw;
+  color: var(--white);
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-radius: 0.62rem;
+  text-decoration: none;
+  background-color: var(--blue);
+}

@@ -4,6 +4,7 @@
 @import url("styles/about.css");
 @import url("styles/services.css");
 @import url("styles/capatibilities.css");
+@import url("styles/pricing.css");
 
 :root {
     --font: 'Raleway';
@@ -11,8 +12,8 @@
     --font-size-medium: 20px;
     --font-size-large: 36px;
     --white: #fff;
-    --Blue: #2A4AF4;
-    --Orange: #DF8600;
+    --blue: #2A4AF4;
+    --orange: #DF8600;
     --purple-100: #9694E7;
     --purple-300: #5F65F4;
     --purple-500: #1F1D2C;
@@ -32,7 +33,7 @@ body {
 /*==========Text_Components==========*/
 
 .section__title {
-    color: var(--Blue);
+    color: var(--blue);
     font-size: var(--font-size-medium);
     font-weight: 600;
     text-transform: uppercase;
