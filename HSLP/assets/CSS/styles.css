@@ -5,6 +5,7 @@
 @import url("styles/services.css");
 @import url("styles/capatibilities.css");
 @import url("styles/pricing.css");
+@import url("styles/testimonial.css");
 
 :root {
     --font: 'Raleway';
